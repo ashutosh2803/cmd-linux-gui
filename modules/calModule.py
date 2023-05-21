@@ -7,7 +7,7 @@ def calmodule():
     a=input("ENTER YEAR(YYYY):")
     b=input("ENTER MONTH(MM):")
 
-# display the calendar
+# display the calendar in tabular form
     print(calendar.month(int(a),int(b)))
 
 calmodule()
