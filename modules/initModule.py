@@ -4,6 +4,5 @@ def initFunction():
     # Perform initialization tasks
     print("Program initialized!")
 
-# Call the initFunction to initialize the program
-initFunction()
+
 

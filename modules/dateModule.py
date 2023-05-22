@@ -2,6 +2,7 @@
 
 import datetime
 
+
 def dateModule():
     # Get the current date and time
     current_datetime = datetime.datetime.now()
@@ -15,5 +16,3 @@ def dateModule():
 
     # Print the display string
     print(display_string)
-
-dateModule()
