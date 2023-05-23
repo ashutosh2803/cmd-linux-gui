@@ -1,6 +1,6 @@
 # main file to execute all modules in gui and cli sys
 from tabulate import tabulate
-from modules import calModule, dateModule, initModule, installModule, pwdModule
+from modules import calModule, dateModule, initModule, installModule, pwdModule, mkdirModule
 
 
 def main():
@@ -20,19 +20,22 @@ def main():
     if a == '1':
         print(calModule.calmodule())
 
-    if a == '2':
+    elif a == '2':
         print(dateModule.dateModule())
 
-    if a == '3':
+    elif a == '3':
         print(initModule.initFunction())
 
-    if a == '4':
+    elif a == '4':
         print(installModule.main())
 
-    if a == '5':
+    elif a == '5':
         print(pwdModule.pwd())
+    
+    elif a == '6':
+        print(mkdirModule.mkdirModule())
 
-    if a >= '6':
+    else:
         print("YOU CHOOSE A WRONG CHOICE PLEASE TRY AGAIN")
 
 
