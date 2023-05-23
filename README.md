@@ -3,7 +3,7 @@
 ## Basic CMD Menu using Python@3.0
 
 ### Running the app
-- Pip install -r requirement.txt
+- pip install -r requirement.txt
 - python main.py
 
 ### Dependencies Modules:
