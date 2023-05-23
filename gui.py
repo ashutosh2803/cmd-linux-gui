@@ -15,12 +15,12 @@ frame.pack()
 label = ttk.Label(frame, text="Select an Option:", font=("Helvetica", 14))
 label.pack()
 
-option1 = ttk.Button(frame, text="Option 1", command=calModule)
-option2 = ttk.Button(frame, text="Option 2", command=dateModule)
-option3 = ttk.Button(frame, text="Option 3", command=initModule)
-option4 = ttk.Button(frame, text="Option 4", command=installModule)
-option5 = ttk.Button(frame, text="Option 5", command=pwdModule)
-option6 = ttk.Button(frame, text="Option 6", command=mkdirModule)
+option1 = ttk.Button(frame, text="Calender", command=calModule)
+option2 = ttk.Button(frame, text="Date", command=dateModule)
+option3 = ttk.Button(frame, text="init Package", command=initModule)
+option4 = ttk.Button(frame, text="Package Installation", command=installModule)
+option5 = ttk.Button(frame, text="Print Working Directory", command=pwdModule)
+option6 = ttk.Button(frame, text="Create a New Folder", command=mkdirModule)
 
 # Add some styling to the buttons
 style = ttk.Style()

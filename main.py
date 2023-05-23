@@ -8,8 +8,8 @@ def main():
     all_data = [["FUNCTION NUMBER", "DESCRIPTION", "CONTRIBUTORS"],
                 [1, "Calender", "NISHANT VIDHU"],
                 [2, "Date", "ASHUTOSH KUMAR"],
-                [3, "init package", "ADITYA KUMAR"],
-                [4, "Package installation", "AMIT KOUSHIK"],
+                [3, "init Package", "ADITYA KUMAR"],
+                [4, "Package Installation", "AMIT KOUSHIK"],
                 [5, "Print Working Directory", "NISHANT VIDHU"],
                 [6, "Create a New Folder", "VINAYAK PANDIA"]]
     print(tabulate(head, tablefmt='fancy_grid'))
