@@ -1,8 +1,8 @@
 # cmd-linux-gui
 
-## Basic CMD Menu using Python
+## Basic CMD Menu using Python@3.0
 
-### Modules included in this Python Scripting are:
+### Dependencies Modules:
 
 - SYS MODULE 
 - OS MODULE
