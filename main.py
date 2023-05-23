@@ -10,7 +10,8 @@ def main():
                 [2, "Date", "ASHUTOSH KUMAR"],
                 [3, "init package", "ADITYA KUMAR"],
                 [4, "Package installation", "AMIT KOUSHIK"],
-                [5, "Print Working Directory", "NISHANT VIDHU"]]
+                [5, "Print Working Directory", "NISHANT VIDHU"],
+                [6, "Create a New Folder", "VINAYAK PANDIA"]]
     print(tabulate(head, tablefmt='fancy_grid'))
     print(tabulate(all_data, headers='firstrow', tablefmt='grid'))
 
