@@ -1,15 +1,15 @@
 import os
 
-# Taking path as input
-path_input = input("Enter the path: ")
+def create_directory():
+    directory_name = input("Enter the directory name: ")
 
-#checking for path location
-if '.' in path_input:
-    path = os.getcwd()
-else:
-    path = path_input
+    # Check if the directory already exists
+    if not os.path.exists(directory_name):
+        # Create the directory
+        os.mkdir(directory_name)
+        print(f"Directory '{directory_name}' created successfully.")
+    else:
+        print(f"Directory '{directory_name}' already exists.")
 
-
-    # using mkdir to create directory
-    os.mkdir(path)
-    print("Successfully created directory " + path)
+# Call the function to create the directory
+create_directory()
