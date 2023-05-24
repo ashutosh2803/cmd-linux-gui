@@ -34,6 +34,6 @@
 ![cmd-linux-gui](https://user-images.githubusercontent.com/40117155/240360058-cb2224de-82a3-4b96-abfa-74232c847394.png)
 
 ### Create a New Folder
-![cmd-linux-gui](https://user-images.githubusercontent.com/40117155/240686343-2a6b5ecd-4711-4379-84f0-7729e2ea6baf.png)
+![cmd-linux-gui](https://user-images.githubusercontent.com/40117155/240691296-7c807e3f-7d3e-42fd-8811-d31583f51753.png)
 
 ### If you liked our work, please give a star!⭐️
