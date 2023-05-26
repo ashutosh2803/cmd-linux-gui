@@ -1,11 +1,11 @@
 import os
 
+
 def mkdirModule():
-    
     # Taking path as input
     path_input = input("Enter the path: ")
 
-    #checking for path location
+    # checking for path location
     if '.' in path_input:
         path = os.getcwd()
     else:
