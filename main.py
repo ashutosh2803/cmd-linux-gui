@@ -12,7 +12,7 @@ def main():
                 [4, "Package Installation", "AMIT KOUSHIK"],
                 [5, "Running Processes List", "NISHANT VIDHU"],
                 [6, "Create a New Directory", "VINAYAK PANDIA"],
-                [7, "Ping any Website", "NISHANT VIDHU"],
+                [7, "Ping (google.com)", "NISHANT VIDHU"],
                 [8, "Information About Any Command" ,"NISHANT VIDHU"],
                 [9, "System Information" , "NISHANT VIDHU"],
                 [10,"RUN COMMAND OF YOUR CHOICE","NISHANT VIDHU"]]
