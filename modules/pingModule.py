@@ -1,9 +1,8 @@
 import subprocess
 
 def ping():
-    
-    p= subprocess.Popen("ping google.com")
-    p.wait()
-    print(p.poll())
+    a = input("ENTER THE COMMAND:")
+    result = subprocess.run(["ping", a], shell=True, capture_output=True, text=True)
 
+    print(result.stdout)
 ping()
