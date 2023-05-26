@@ -1,6 +1,7 @@
 # main file to execute all modules in gui and cli sys
 from tabulate import tabulate
-from modules import calModule, dateModule, initModule, installModule,mkdirModule,pingModule,psModule,anyCom,systemModule,help
+from modules import calModule, dateModule, initModule, installModule, mkdirModule, \
+    pingModule, psModule, anyCom, systemModule, help
 
 
 def main():
@@ -13,9 +14,9 @@ def main():
                 [5, "Running Processes List", "NISHANT VIDHU"],
                 [6, "Create a New Directory", "VINAYAK PANDIA"],
                 [7, "Ping (google.com)", "NISHANT VIDHU"],
-                [8, "Information About Any Command" ,"NISHANT VIDHU"],
-                [9, "System Information" , "NISHANT VIDHU"],
-                [10,"RUN COMMAND OF YOUR CHOICE","NISHANT VIDHU"]]
+                [8, "Information About Any Command", "NISHANT VIDHU"],
+                [9, "System Information", "NISHANT VIDHU"],
+                [10, "RUN COMMAND OF YOUR CHOICE", "NISHANT VIDHU"]]
 
     print(tabulate(head, tablefmt='fancy_grid'))
     print(tabulate(all_data, headers='firstrow', tablefmt='grid'))
@@ -36,7 +37,7 @@ def main():
 
     elif a == '5':
         print(psModule.ps())
-    
+
     elif a == '6':
         print(mkdirModule.mkdirModule())
 
