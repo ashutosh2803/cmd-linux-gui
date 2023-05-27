@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 # main file to execute all modules in gui and cli sys
 
 import platform
@@ -22,7 +23,8 @@ def main():
                 [7, "PING any Website", "NISHANT VIDHU"],
                 [8, "Info About any command ", "NISHANT VIDHU"],
                 [9, "system Information", "NISHANT VIDHU"],
-                [10, "Run Command of Your choice", "NISHANT VIDHU"]]
+                [10, "Run Command of Your choice", "NISHANT VIDHU"],
+                [11,"Exit/Quit"]]
 
     print(tabulate(head1, tablefmt='grid'))
     print(tabulate(head2, tablefmt='grid'))
@@ -94,11 +96,17 @@ def main():
 
     # any command run
     elif a == '10':
-        print(anyCom.anycom())
-
-
+        anyCom.anycom()
+    # Quit/Exit the program
+    elif a == '11':
+    	return
     else:
         print("YOU CHOOSE A WRONG CHOICE PLEASE TRY AGAIN")
+    # Repeat the process if user wants...
+    a = input("Do you want to continue?(y/n)")
+    if a.lower() == 'y':
+        main()
+    return
 
-
-main()
+if __name__ == "__main__":
+    main()
