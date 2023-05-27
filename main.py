@@ -34,65 +34,65 @@ def main():
     a = input("SELECT YOUR CHOICE:")
 
     if a == '1':
-        print(calModule.calmodule())
+        calModule.calmodule()
 
     elif a == '2':
-        print(dateModule.dateModule())
+        dateModule.dateModule()
 
     elif a == '3':
-        print(initModule.initFunction())
+        initModule.initFunction()
 
     # install module code
     elif a == '4':
         if opsys == "Linux":
-            print(installModule.main())
+            installModule.main()
         elif opsys == "Windows":
-            print(pkgInstall.winPkg())
+            pkgInstall.winPkg()
         elif opsys == "Darwin":
-            print(pkgInstall.MacPkg())
+            pkgInstall.MacPkg()
 
     # process module code
     elif a == '5':
 
         if opsys == "Linux":
-            print(psModule.ps())
+            psModule.ps()
         elif opsys == "Windows":
-            print(psModule.Winps())
+            psModule.Winps()
         elif opsys == "Darwin":
-            print(psModule.Macps())
+            psModule.Macps()
 
     elif a == '6':
-        print(mkdirModule.mkdirModule())
+        mkdirModule.mkdirModule()
 
     # ping module code
     elif a == '7':
 
         if opsys == "Linux":
-            print(pingModule.ping())
+            pingModule.ping()
         elif opsys == "Windows":
-            print(pingModule.pingWin())
+            pingModule.pingWin()
         elif opsys == "Darwin":
-            print(pingModule.ping())
+            pingModule.ping()
 
     # command help code
     elif a == '8':
 
         if opsys == "Linux":
-            print(help.help1())
+            help.help1()
         elif opsys == "Windows":
-            print(help.helpWin())
+            help.helpWin()
         elif opsys == "Darwin":
-            print(help.help1())
+            help.help1()
 
     # system information
     elif a == '9':
 
         if opsys == "Linux":
-            print(systemModule.sys())
+            systemModule.sys()
         elif opsys == "Windows":
-            print(systemModule.WinSys())
+            systemModule.WinSys()
         elif opsys == "Darwin":
-            print(systemModule.sys())
+            systemModule.sys()
 
     # any command run
     elif a == '10':
