@@ -12,13 +12,13 @@ def anycom():
 
     if a == '1':
         p = input("ENTER THE COMMAND WITH NO ARGUMENTS:")
-        result = subprocess.run([p], shell=True, capture_output=True, text=True)
+        result = subprocess.run([p])
         print(result.stdout)
 
     elif a == '2':
         q = input("ENTER THE FIRST PART:")
         r = input("ENTER THE ARGUMENT PART:")
-        res = subprocess.run([q, r], shell=True, capture_output=True, text=True)
+        res = subprocess.run([q, r])
         print(res.stdout)
 
     else:
