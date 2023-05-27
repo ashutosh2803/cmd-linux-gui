@@ -6,7 +6,6 @@ from tabulate import tabulate
 from modules import calModule, dateModule, initModule, installModule, mkdirModule, psModule, anyCom, systemModule, \
     pingModule, help, pkgInstall
 
-
 def main():
     opsys: str = platform.system()
     head1 = [["OS DETECTED --> ", opsys]]
